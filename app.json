@@ -21,7 +21,7 @@
       
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": false,
+      "required": true,
       "value": "."
     },
     
@@ -35,7 +35,7 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
+      "required": true,
       "value": "true"  
     },    
   
@@ -53,7 +53,7 @@
 
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
-      "required": false,
+      "required": true,
       "value": "true"
     }, 
 
@@ -72,7 +72,7 @@
 
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
 
@@ -85,7 +85,7 @@
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
-      "required": false,
+      "required": true,
       "value": "Nicolaus Daniel 😈"
 }, 
 
@@ -125,7 +125,7 @@
 
    "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     
@@ -143,25 +143,25 @@
 
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     
@@ -192,7 +192,7 @@
 
     "WELCOME": {
       "description": "make it true if want goodbye and welcome message in groups.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
 
